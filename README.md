@@ -8,7 +8,7 @@
 
 
 <a href="https://www.npmjs.com/package/imran-alldl"><img alt="npm version" src="https://img.shields.io/npm/v/imran-dlmedia.svg?style=flat-square"></a>
-<img alt="version" src="https://img.shields.io/github/package-json/v/MR-IMRAN-60/imran-alldl?label=github&style=flat-square">
+<img alt="version" src="https://img.shields.io/github/package-json/v/MR-IMRAN-60/imran-downloadmedia?label=github&style=flat-square">
 <a href="https://www.npmjs.com/package/imran-alldl"><img src="https://img.shields.io/npm/dm/imran-alldl.svg?style=flat-square" alt="npm downloads"></a>
 [![js dilvr](https://data.jsdelivr.com/v1/package/npm/imran-alldl/badge)](https://www.jsdelivr.com/package/npm/imran-alldl)
 
